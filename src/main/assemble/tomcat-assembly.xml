@@ -1,0 +1,16 @@
+<assembly>
+  <baseDirectory>/</baseDirectory>
+  <id>tomcat-assembly</id>
+  <formats>
+    <format>dir</format>
+  </formats>
+
+        <fileSets>
+         <fileSet>
+                     <directory>${project.basedir}/tomcat</directory>
+                     <outputDirectory>/opt/dochack/tomcat</outputDirectory>
+                     <fileMode>0755</fileMode>
+              </fileSet>
+        </fileSets>
+
+</assembly>
